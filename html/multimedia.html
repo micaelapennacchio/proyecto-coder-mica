@@ -4,17 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Galeria</title>
+    <title >Galeria</title>
     <link rel="stylesheet" href="../css/estilo.css" />
     <link
       rel="shortcut icon"
       href="../img/silueta_copa-removebg.png"
       type="image/x-icon"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <header class="headers">
-       <h1 class="vinos">Galeria</h1>
+       <h1 data-aos="zoom-out" class="vinos">Galeria</h1>
       <nav class="linkPaginas">
         <a href="../index.html">Inicio</a>
         <a href="multimedia.html">Galeria</a>
@@ -39,28 +40,28 @@
 
 
     <section id="galeriaDeImagen">
-      <div class="cajitaImagen">
+      <div data-aos="zoom-in-up" class="cajitaImagen">
        <img
         class="imagen1"
         src="../img/bsas.jpg"
         alt="Imagen del Obelisco, centro Buenos Aires"
         />
       </div>
-      <div class="cajitaImagen">
+      <div data-aos="zoom-in-up" class="cajitaImagen">
        <img
         class="imagen2"
         src="../img/Portada-San-Martín-de-los-Andes.jpg"
         alt="Imagen de S.M. de los Andes, Patagonia Argentina"
        />
       </div>
-      <div class="cajitaImagen">
+      <div data-aos="zoom-in-up" class="cajitaImagen">
        <img
         class="imagen3"
         src="../img/mdz.jpg"
         alt="Vistas de Potrerillos, Medoza"
        />
       </div>
-      <div class="cajitaImagen">
+      <div data-aos="zoom-in-up" class="cajitaImagen">
        <img
         class="imagen4"
         src="../img/salta.jpg"
@@ -83,5 +84,9 @@
         © Sitio web creado por Micaela Pennacchio todos los derechos reservados
       </h3>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

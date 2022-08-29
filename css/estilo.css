@@ -16,7 +16,9 @@ a {
 
 }
 a:hover {
+  background-color:bisque ; 
   border: 1px solid rgb(185, 30, 43);
+
 }
 
 h1 {
@@ -135,7 +137,7 @@ opacity: 75%;
   font-weight: bold;
   border: 2px rgb(95, 86, 86) solid;
   padding: 10px 10px 10px 30px;
-  background-color: bisque;
+  background: linear-gradient(to top, rgb(177, 156, 130), rgb(177, 78, 86) ) ;
   width: 400px;
   height: 700px;
 
@@ -143,7 +145,7 @@ opacity: 75%;
 }
 
 .tituloTop {
-  color: rgb(185, 30, 43);
+  color: rgb(141, 18, 28);
   font-weight: bold;
   font-size: 40px;
 }
@@ -153,8 +155,10 @@ opacity: 75%;
 }
 .puesto1{
   font-size: 30px;
-  color: rgb(211, 11, 27);
+  color: rgb(141, 18, 28);
  }
+ 
+
 
 /*FQ*/
 .pregs {
@@ -195,6 +199,15 @@ opacity: 75%;
 
 
 /*CONTACTO*/
+.botonera{
+  box-shadow: -8px 3px 25px;
+  transition: all 1s;
+}
+
+.botonera:hover {
+  background-color: rgb(180, 96, 96);
+ 
+}
 .contacto {
   font-size: 22px;
   
@@ -207,6 +220,7 @@ opacity: 75%;
 .bodyContacto{
   text-align: center;
 }
+
 
 /*GALERIA*/
 .imagen1 {
@@ -234,11 +248,20 @@ opacity: 75%;
 }
  
 .cajitaImagen {
+  
   margin: 10px;
   padding: 10px;
   border: 1px solid #753030;
+  transition: all 0.8s;
+  
+  
   
 }
+ .cajitaImagen:hover{
+ background-color:  rgb(180, 96, 96);
+ height: 300px;
+ width: 350px;
+ }
 
 #galeriaDeImagen {
  
@@ -252,15 +275,23 @@ opacity: 75%;
   
     .seccionTop {
       display: grid;
-      grid-template-columns: none;}
-    }  
+      grid-template-columns: none;
+      
+    }
+    .top10 {
+      width: 80%;
+      text-align: justify;
+     
+    }
+    
+    }
+     
 
 
 @media (max-width:580px)
 {
   .seccionTop {
-    display: grid;
-    grid-template-columns: none;}
+   row-gap: 50px; }
 
   .headers nav a {
     display: none;
@@ -274,5 +305,10 @@ opacity: 75%;
   #seccionTop {
     flex-wrap: wrap;
   }  
+  .top10 {
+    
+    height: 850px;
+  }
 }
+
 
