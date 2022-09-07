@@ -1,0 +1,52 @@
+/*INDEX*/
+
+.headers {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 300px;
+    background-color: beige;
+    font-size: 30px;
+    border: 5px rgb(185, 30, 43) solid;
+    padding: 30px 50px 30px 10px;
+  }
+  
+  .imagenFondoP {
+    background-image: url(../img/zuccardi.jpg);
+    background-size: cover;
+    height: calc(100vw - 130px);
+  }
+  
+  .logo {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    opacity: 75%;
+  }
+  .ImagenLogo {
+    height: 280px;
+    width: 220px;
+  }
+  .aeropuerto {
+    max-width: 100%;
+    border-radius: 10%;
+  }
+  
+  .imagenPrincipal {
+    width: 100%;
+    display: block;
+  }
+  
+  .textoHistoria {
+    font-size: 20px;
+    text-align: justify;
+  }
+  
+  .textoP {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #753030;
+    text-align: center;
+  }

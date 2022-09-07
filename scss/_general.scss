@@ -1,0 +1,44 @@
+
+/*GENERAL*/
+
+.linkPaginas{
+    display: flex;
+   }
+   
+   a {
+     text-decoration: none;
+     color: rgb(185, 30, 43);
+   }
+   a:hover {
+     background-color: bisque;
+     border: 1px solid rgb(185, 30, 43);
+   }
+   
+   h1 {
+     color: rgb(185, 30, 43);
+     font-size: 70px;
+     text-align: center;
+     font-weight: bold;
+   }
+   
+   body {
+     background-color: rgb(158, 158, 112);
+     line-height: 40px;
+   }
+   
+   .introduccion {
+     color: rgb(185, 30, 43);
+     font-weight: bold;
+     font-size: 40px;
+     text-align: center;
+   }
+   .titRedes {
+     color: rgb(185, 30, 43);
+     font-weight: bold;
+     font-size: 25px;
+   }
+   .parrafos {
+     font-weight: bold;
+     font-size: 26px;
+     text-align: justify;
+   }

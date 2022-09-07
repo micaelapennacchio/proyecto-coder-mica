@@ -1,0 +1,43 @@
+/*GALERIA*/
+.imagen1 {
+    max-width: 100%;
+    grid-area: imagen1;
+    display: flex;
+  }
+  
+  .imagen2 {
+    max-width: 100%;
+  
+    display: flex;
+  }
+  
+  .imagen3 {
+    max-width: 100%;
+    width: 1100px;
+    display: flex;
+  }
+  
+  .imagen4 {
+    max-width: 100%;
+    width: 1100px;
+    display: flex;
+  }
+  
+  .cajitaImagen {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #753030;
+    transition: all 0.8s;
+  }
+  .cajitaImagen:hover {
+    background-color: rgb(180, 96, 96);
+    height: 300px;
+    width: 350px;
+  }
+  
+  #galeriaDeImagen {
+    width: 85%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+  }

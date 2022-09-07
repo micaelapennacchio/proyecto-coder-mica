@@ -1,0 +1,36 @@
+/*FQ*/
+.pregs {
+    font-size: 30px;
+  }
+  
+  .fondoImagenSec1 {
+    background-color: bisque;
+    grid-area: fondoImagen1;
+    margin: auto;
+    padding: 7px;
+    width: 310px;
+  }
+  .fondoImagenSec2 {
+    background-color: bisque;
+    grid-area: fondoImagen2;
+    margin: auto;
+    padding: 7px;
+    width: 310px;
+  }
+  .imagenFQ {
+    width: 300px;
+  }
+  
+  .sectionFQ1 {
+    grid-area: section1;
+  }
+  .sectionFQ2 {
+    grid-area: section2;
+  }
+  .introduccionFQ {
+    color: rgb(185, 30, 43);
+    grid-area: intro1;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+  }

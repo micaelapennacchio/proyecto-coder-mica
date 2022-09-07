@@ -1,0 +1,39 @@
+/*TOP10*/
+.seccionTop {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-rows: 650px;
+  
+    margin: auto;
+    max-width: 100%;
+    padding-bottom: 200px;
+  }
+  
+  .introTop {
+    font-size: 25px;
+  }
+  
+  .top10 {
+    line-height: 2;
+    font-weight: bold;
+    border: 2px rgb(95, 86, 86) solid;
+    padding: 10px 10px 10px 30px;
+    background: linear-gradient(to top, rgb(177, 156, 130), rgb(177, 78, 86));
+    width: 400px;
+    height: 700px;
+  }
+  
+  .tituloTop {
+    color: rgb(141, 18, 28);
+    font-weight: bold;
+    font-size: 40px;
+  }
+  
+  .bodegaZ {
+    max-width: 600px;
+  }
+  .puesto1 {
+    font-size: 30px;
+    color: rgb(141, 18, 28);
+  }
+  

@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap");
+
+@import "variables";
+@import "top10";
+@import "multimedia";
+@import "index";
+@import "fq";
+@import "contacto";
+@import "bodegas";
+@import "general";
+
+
+* {
+  margin-right: 3px;
+  margin-left: 3px;
+  padding: 0;
+}
+
+
+
+
+@media (max-width: 920px) {
+  .seccionTop {
+    display: grid;
+    grid-template-columns: none;
+  }
+  .top10 {
+    width: 80%;
+    text-align: justify;
+  }
+  .linkPaginas{
+    flex-direction: column;
+  }
+
+}
+
+@media (max-width: 580px) {
+  .seccionTop {
+    row-gap: 50px;
+  }
+
+  .headers nav a {
+    display: none;
+  }
+  .logo {
+    display: none;
+  }
+  #galeriaDeImagen {
+    grid-template-columns: none;
+  }
+  #seccionTop {
+    flex-wrap: wrap;
+  }
+  .top10 {
+    height: 850px;
+  }
+ 
+  h1 {
+    font-size: 50px;
+  }
+  
+}
+
+
